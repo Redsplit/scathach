@@ -1,0 +1,6 @@
+#!/bin/bash
+# change "hey" with => yer "token"
+cd lib;nano bot.json;
+cd $OLDPWD
+npm install
+node app.js
